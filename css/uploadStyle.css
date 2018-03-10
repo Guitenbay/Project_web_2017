@@ -1,0 +1,134 @@
+body{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Cantarell","Open Sans","Helvetica Neue","Ubuntu",sans-serif;
+	background-color: #f5f5f5;
+	margin: 0px;
+	padding: 0px;
+	min-width: 660px;
+}
+div.jumbotron {
+	padding: 40px;
+}
+#upload_head {
+	background-image: url("../image/pixbar-photos-upload.png");
+	background-size: cover;
+	background-position: 100% 60%;
+	background-color: #fff;
+	padding: 120px 20px;
+}
+#upload_head h1 {
+	color: #f5f5f5;
+	font-family: Microsoft JhengHei;
+	text-align: center;
+}
+#upload {
+	margin: 4% 10%;
+	border-radius: 5px;
+}
+li.upphoto p {
+	font-family: Microsoft JhengHei;
+	padding-left: 0px;
+	font-size: 16px;
+	width: 120px;
+	color: #888;
+}
+#upload form > p {
+	margin: 0px;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #f5f5f5;
+	background-color: #7C79A2;
+	border-radius: 5px 5px 0px 0px;
+}
+#upload ul {
+	text-align: center;
+	line-height: 1.5;
+}
+#upload li {
+	padding: 8px 25px;
+	border: 1px solid #7C79A2;
+	overflow: hidden;
+}
+li.upphoto {
+	text-align: left;
+}
+#upload input {
+	width: 98%;
+	height: 40px;
+	font-size: 16px;
+	padding: 3px 10px;
+	border-radius: 5px;
+	outline: none;
+	font-family: Microsoft JhengHei;
+}
+#upload textarea {
+	width: 98%;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 3px 10px;
+	border-radius: 5px;
+	outline: none;
+	font-family: Microsoft JhengHei;
+}
+#upload select {
+	width: 70%;
+	height: 30px;
+	margin: 5px;
+	border: 1px solid #7C79A2;
+	border-radius: 5px;
+	color: #7C79A2;
+	outline: none;
+}
+#upload input[type="submit"], #upload input[type="reset"] {
+	height: 35px;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 3px 10px;
+	border: 1px solid #7C79A2;
+	border-radius: 5px;
+	width: 80px;
+	margin: 5px 10px;
+	background-color: #f5f5f5;
+	color: #7C79A2;
+}
+#upload input[type="submit"]:hover, #upload input[type="reset"]:hover {
+	background-color: #7C79A2;
+	color: #f5f5f5;
+}
+footer {
+	margin: 0px;
+	height: 200px;
+	background-color: #353c3e;
+	border: 0px;
+	padding: 0px 100px;
+}
+footer h2 {
+	font-size: 30px;
+    display: inline-block;
+	margin: 10px 20px;
+    color: rgb(236, 154, 62);
+}
+footer p {
+	margin: 10px 50px;
+	color: #f5f5f5;
+}
+@media (max-width:1024px) and (min-width: 700px){
+	#photosearch {
+		display: none
+	}
+	#pageName {
+		left: 80px;
+		margin-left: 0px;
+	}
+}
+@media (max-width: 700px){
+	#photosearch {
+		display: none
+	}
+	#pageName {
+		left: 80px;
+		margin-left: 0px;
+	}
+	.head_right {
+		display: none;
+	}
+}

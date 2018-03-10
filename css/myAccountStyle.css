@@ -1,0 +1,161 @@
+body{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Cantarell","Open Sans","Helvetica Neue","Ubuntu",sans-serif;
+	background-color: #f5f5f5;
+	margin: 0px;
+	padding: 0px;
+	min-width: 660px;
+}
+/* 界面内容 */
+#myAccount {
+	background-image: url("../image/pixbar-photos-myAccount.jpg");
+	background-size: cover;
+	background-position: 100% 30%;
+	background-color: #fff;
+	padding: 120px 20px;
+}
+#myAccount h1 {
+	color: #f5f5f5;
+	font-family:Microsoft JhengHei;
+	text-align: center;
+}
+#my {
+	margin: 30px 100px 0px 100px;
+	text-align: center;
+}
+.mycontent {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.mycontent li {
+	display: inline-block;
+	margin: 5px 20px;
+}
+.mycontent a {
+	text-decoration: none;
+	color: #555;
+}
+.mycontent a:hover {
+	text-decoration: underline;
+	cursor:pointer;
+}
+.mycontent hr {
+	background-color: #555;
+	height: 2px;
+}
+#myphoto {
+	padding: 0px 8em 3em 8em;
+}
+#myphoto h2 {
+	margin-top: 0px;
+	font-weight: normal;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+#myphoto > div {
+	width: 100%;
+}
+.photo_container {
+	width: 32%;
+	display: inline-block;
+	margin: 0px 0.5%;
+}
+.thumbnail:hover {
+	border-color: rgba(228, 123, 4, 0.7);
+	box-shadow: 0px 0px 5px rgba(228, 123, 4, 0.9);
+}
+.thumbnail h4 {
+	width: 70%;
+	height: 25px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.heart {
+	display: inline-block;
+}
+.glyphicon-heart {
+	color: red;
+	width: 20px;
+}
+.follow:nth-child(odd){
+	background-color: #e5e5e5;
+}
+.follow:nth-child(even){
+	background-color: #f5f5f5;
+}
+.follow {
+	width: 96%;
+	margin: 0px 2%;
+}
+.follow p {
+	font-size: 24px;
+	vertical-align: middle;
+}
+.follow ul {
+	width: 100%;
+	height: 170px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.follow li {
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+.follow li:nth-child(1){
+	padding: 25px 0px;
+	width: 20%;
+}
+.follow li:nth-child(2){
+	width: 69%;
+}
+.follow li:nth-child(3){
+	width: 10%;
+	padding-top: 100px;
+}
+.userimg {
+	background-color: #65a;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #f5f5f5;
+	border-radius: 40px;
+}
+.follow li:nth-child(2) a {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.follow li:nth-child(2) a:hover {
+	border-color: #2e93ea;
+	box-shadow: 0px 0px 10px #52a0e3;
+}
+.follow li:nth-child(2) a > img {
+	height: 150px;
+}
+.jumbotron {
+	padding: 20px 30px;
+}
+#page_foot {
+	text-align: center;
+}
+@media (max-width:1024px) and (min-width: 700px){
+	#photosearch {
+		display: none
+	}
+	#pageName {
+		left: 80px;
+		margin-left: 0px;
+	}
+}
+@media (max-width: 700px){
+	#photosearch {
+		display: none
+	}
+	#pageName {
+		left: 80px;
+		margin-left: 0px;
+	}
+	.head_right {
+		display: none;
+	}
+}
